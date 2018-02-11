@@ -1,102 +1,58 @@
-*{
-	margin: 0;
-	padding :0;
-}
+/**{
+  margin: 0;
+  padding :0;
+}*/
 body{
-	/*background-color:#4aaaa5;*/
-	background-image: url("../image/concrete_seamless.png");
-	height: 100%;
-	margin:0;
-}
-
-.navbar{
-	background-color: white;
-	margin:0px;
-	margin-bottom: 20px;
- 
+ background-image: url("../image/concrete_seamless.png");
+  height: 100%;
+  margin:0;
 }
 
 .navbar-header{
-	background-color: #4aaaa5;
-	text-align: center; 
-
+  background-color: #4aaaa5;
+  text-align: center; 
 }
 
-.container{
-	width: 960px;
-
+#nav-header{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
 }
 
-.aboutme{
-	color: #4aaaa5;
-}
-.header{
-	color: #4aaaa5;
-	text-align: center;
+#header{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
 }
 
-
-
-
-				
-.p1{
-	padding:0px;
-	margin-bottom: 40px;
+hr{
+  height: 5px;
+  border-style: solid;;
 }
 
-
-
-.blank{
-	height: 340px;
+.col{
+  background-color: #ffffff;
 }
 
-.col1{
-	background-color: white;
-	
+.connect{
+  widows: 270px;
+  background-color:#ffffff;
+  height: 200px;
 }
 
-.col-blank {
-    background-color: white;
-    height: 70px;
-}
-
-.col2{
-	background-color: white;
-}
-
-.col3{
-	background-color: white;
-
-}
-
-.col4{
-	height: 200px;
-	background-color: white;
-}
-
-.footer{
-	width: 100%;
-    padding: 30px 0;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    /* height: 50px; */
-    margin-top: 100px;
-    margin-bottom: 0px;
+    color: white;
     text-align: center;
+    height: 60px;
+    color: gray;
+
 }
 
-.ul{
-	list-style-type: none;
-}
-
-.contact-row{
-	background-color: white;
-	height: 300px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-	
+.section{
+  margin-bottom: 150px;
 }
 
 label,
@@ -128,4 +84,5 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
 
